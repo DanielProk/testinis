@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\denci\source\repos\project2\project2\mylib.h(43,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\denci\source\repos\project2\project2\main.cpp(25,34): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\denci\source\repos\project2\project2\main.cpp(25,34): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  project2.vcxproj -> C:\Users\denci\source\repos\project2\x64\Debug\project2.exe
