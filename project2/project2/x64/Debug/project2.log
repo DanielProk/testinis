@@ -1,5 +1,15 @@
 ﻿  main.cpp
-C:\Users\denci\source\repos\project2\project2\mylib.h(43,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\denci\source\repos\project2\project2\main.cpp(25,34): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\denci\source\repos\project2\project2\main.cpp(25,34): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\denci\source\repos\project2\project2\mylib.h(50,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\denci\source\repos\project2\project2\main.cpp(128,34): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\denci\source\repos\project2\project2\main.cpp(128,34): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  mylib.cpp
+C:\Users\denci\source\repos\project2\project2\mylib.h(50,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\denci\source\repos\project2\project2\mylib.cpp(46,12): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\denci\source\repos\project2\project2\mylib.cpp(47,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\denci\source\repos\project2\project2\mylib.cpp(50,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
   project2.vcxproj -> C:\Users\denci\source\repos\project2\x64\Debug\project2.exe

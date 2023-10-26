@@ -60,3 +60,23 @@ double studentas::mediana(vector<int> vec) {//nukopijuoja vektoriu
 	return size % 2 == 0 ? (vec[vid] + vec[vid - 1]) / 2.0 : vec[vid] / 1.0;
 
 }
+bool maziau(studentas& a, studentas& b) {
+	return a.getVardas() < b.getVardas();
+}
+bool daugiau(studentas& a, studentas& b) {
+	return a.getVardas() > b.getVardas();
+}
+bool daugiauGp(studentas& a, studentas& b) {
+	return a.getGal() > b.getGal();
+}
+void rusiavimas(vector<studentas> &Gr) {
+	cout << "Didejimo tvarka 1, mazejimo 2, pagal galutini pazymi 3:";
+	int par;
+	cin >> par;
+	switch (par){
+	case 1:	std::sort(Gr.begin(), Gr.end(), maziau); break;
+	case 2: std::sort(Gr.begin(), Gr.end(), daugiau); break;
+	case 3: std::sort(Gr.begin(), Gr.end(), daugiauGp); break;
+	default: std::cerr << "Klaida";
+	}
+}

@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fast.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="mix.h" />
     <ClInclude Include="mylib.h" />
   </ItemGroup>
